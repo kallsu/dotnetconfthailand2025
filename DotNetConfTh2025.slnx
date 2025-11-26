@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DotNetConfTh2025.Api/DotNetConfTh2025.Api.csproj" />
+  </Folder>
+</Solution>
