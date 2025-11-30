@@ -30,7 +30,7 @@ public record GetProductItem
         // #GGO-CASE: Show the usage of the Helper with the new C#14 feature : extension members
         //
         // Old usage
-        //set => field = (MyStringHelperBeforeDotNet10.IsNullOrEmpty(value) ? value.Trim() : string.Empty);
+        // set => field = (MyStringHelperBeforeDotNet10.IsNullOrEmpty(value) ? value.Trim() : string.Empty);
         //
         // NEW usage
         set => field = (value.IsNullOrEmpty() ? value.Trim() : string.Empty);

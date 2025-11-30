@@ -4,6 +4,14 @@ namespace DotNetConfTh2025.Api.Services;
 
 public class ProductWriteService : IProductWriteService
 {
+    private readonly ILogger<ProductWriteService> _logger;
+
+    public ProductWriteService(ILogger<ProductWriteService> logger)
+    {
+        _logger = logger;
+    }
+
+
     public Task<NewProductItem?> SaveNewProductAsync(
         SaveProductRequest request,
         CancellationToken token

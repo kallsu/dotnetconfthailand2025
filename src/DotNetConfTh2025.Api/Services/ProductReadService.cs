@@ -4,8 +4,11 @@ namespace DotNetConfTh2025.Api.Services;
 
 public class ProductReadService : IProductReadService
 {
-    public ProductReadService()
+    private readonly ILogger<ProductReadService> _logger;
+
+    public ProductReadService(ILogger<ProductReadService> logger)
     {
+        _logger = logger;
     }
 
     public Task<GetProductItem?> GetProductAsync(string productId, CancellationToken token)

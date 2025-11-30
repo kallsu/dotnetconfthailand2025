@@ -1,5 +1,4 @@
 using DotNetConfTh2025.Api.Endpoints;
-using DotNetConfTh2025.Api.Helpers;
 using DotNetConfTh2025.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,9 +42,3 @@ SaveProduct.MapSaveProduct(app);
 Console.WriteLine("Hello World!"); // Thanks to the volunteers
 
 app.Run();
-
-
-string? mystr;
-
-MyStringHelperBeforeDotNet10.IsNullOrEmpty(mystr);
-mystr.IsNullOrEmpty();
