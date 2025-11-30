@@ -3,6 +3,8 @@ using DotNetConfTh2025.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddLogging();
+
 // #GGO-CASE : Specify the new openAPI support
 //
 // https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-10.0?view=aspnetcore-10.0#openapi

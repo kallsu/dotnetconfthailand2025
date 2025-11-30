@@ -11,7 +11,6 @@ public class ProductWriteService : IProductWriteService
         _logger = logger;
     }
 
-
     public Task<NewProductItem?> SaveNewProductAsync(
         SaveProductRequest request,
         CancellationToken token

@@ -4,7 +4,7 @@ namespace DotNetConfTh2025.Api.Models;
 
 /// <summary>
 /// It is the model used to return the PRODUCT entity on the read product service.
-/// 
+///
 /// It has the NOT BEST NAMING in the WORLD, but you can understand that it is like a DTO and not an ENTITY.
 /// </summary>
 public record GetProductItem
@@ -64,7 +64,7 @@ public record GetProductItem
     /// I have no idea because this method is here, but Jose Barbosa (https://th.linkedin.com/in/kidchenko) told me to do that
     /// and I trust him ;-)
     /// </summary>
-    /// 
+    ///
     /// <returns></returns>
     public static GetProductItem Empty()
     {

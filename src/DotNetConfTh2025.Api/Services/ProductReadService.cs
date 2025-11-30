@@ -13,10 +13,10 @@ public class ProductReadService : IProductReadService
 
     public Task<GetProductItem?> GetProductAsync(string productId, CancellationToken token)
     {
-        var product = new GetProductItem(long.Parse(productId)) 
-        { 
+        var product = new GetProductItem(long.Parse(productId))
+        {
             Name = productId,
-            StockAvailable = 100
+            StockAvailable = 100,
         };
 
         //
