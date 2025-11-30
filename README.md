@@ -4,4 +4,8 @@ This is the repository for the talk of mine in the [.NET Thailand Conference 202
 
 ## Code
 
+The following bullet points describes the focus point of the project.
+
  * In order to find all the piece of the code used and explained in the session, search the string `#GGO-CASE`
+ * OpenAPI file is visible under URL `http://<HOST>/openapi/v1.json`
+
